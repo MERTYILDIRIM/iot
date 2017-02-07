@@ -1,0 +1,10 @@
+sudo apt install qemu-user
+sudo apt install proot
+sudo proot -q qemu-arm -S /media/user/xxx
+
+
+rpi ye chroot ile gectikten sonra
+
+bash
+mount /dev/mmcblkxxx /boot
+raspi-config
